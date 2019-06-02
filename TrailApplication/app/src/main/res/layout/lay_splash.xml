@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/ImageSanyuktLogo"
+        android:src="@drawable/sanyuktvanvyavathapan"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_below="@id/ImageSanyuktLogo"
+        android:layout_height="40dp"
+        android:id="@+id/ImageThitbhiLogo"
+        android:src="@drawable/thitbhi_name"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/ImageThitbhiLogo"
+        android:id="@+id/ImageLogo"
+        android:src="@drawable/blue_logo"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/ImageSuswagatamLogo"
+        android:layout_below="@id/ImageLogo"
+        android:src="@drawable/suswagatam"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ImageSuswagatamLogo"
+        android:id="@+id/ImageVanvibhagLogo"
+        android:src="@drawable/vanvibhagthane"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

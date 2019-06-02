@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash">
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_pause_black_24dp"
+        android:id="@+id/btnPlay"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"/>
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_arrow_forward_black_24dp"
+        android:id="@+id/btnFor"
+        android:layout_marginTop="150dp"
+        android:layout_toRightOf="@id/btnPlay"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"/>
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        android:id="@+id/btnBack"
+        android:layout_marginTop="150dp"
+        android:layout_toLeftOf="@id/btnPlay"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/seekbar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"/>
+
+</RelativeLayout>
